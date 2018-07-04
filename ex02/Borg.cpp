@@ -7,7 +7,7 @@ Borg::Ship::Ship()
 	this->_side = 300;
 	this->_maxWarp = 9;
 	std::cout << "We are the Borgs. Lower your shields and ";
-	std::cout << "surrender yourselves unconditionally .";
+	std::cout << "surrender yourselves unconditionally.";
 	std::cout << '\n' ;
 	std::cout << "Your biological characteristics and ";
 	std::cout << "technologies will be assimilated.";
