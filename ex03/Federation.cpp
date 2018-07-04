@@ -89,8 +89,8 @@ Federation::Ship::Ship(int length, int width, std:: string name)
 	this->_photonTorpedo = 20;
 	this->_shield = 100;
 
-	std::cout<<"The independant ship "<<name <<" just finished its construction.It is "<<name<<" has been finished. It is "
-		 <<length<<" m in length and " << width <<"m in width.\n";
+	std::cout<<"The independant ship "<<name <<" just finished its construction. It is "<<name<<" has been finished. It is "
+		 <<length<<" m in length and " << width <<" m in width.\n";
 }
 
 void Federation::Ship::setupCore(WarpSystem::Core *core)
@@ -163,7 +163,7 @@ Federation::Starfleet::Ship::Ship()
 	this->_shield = 100;
 
 	std::cout<<"The ship USS "<<this->_name<<" has been finished. It is "
-		 <<this->_length<<" m in length and " << this->_width <<"m in width."
+		 <<this->_length<<" m in length and " << this->_width <<" m in width."
 			 "It can go to Warp "<<this->_maxWarp<<"!! Weapons are set: "
 		<< this->_photonTorpedo << " torpedos ready.\n";
 }
@@ -181,7 +181,7 @@ Federation::Starfleet::Ship::Ship(int length, int width,
 	this->_shield = 100;
 
 	std::cout<<"The ship USS "<<name<<" has been finished. It is "
-		 <<length<<" m in length and " << width <<"m in width."
+		 <<length<<" m in length and " << width <<" m in width."
 		"It can go to Warp "<<maxWarp<<"! Weapons are set: "
 		 << this->_photonTorpedo << " torpedos ready.\n";
 }
