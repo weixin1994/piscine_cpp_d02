@@ -163,7 +163,7 @@ Federation::Starfleet::Ship::Ship()
 	this->_shield = 100;
 
 	std::cout<<"The ship USS "<<this->_name<<" has been finished. It is "
-		 <<this->_length<<" m in length and " << this->_width <<" m in width."
+		 <<this->_length<<" m in length and " << this->_width <<" m in width. "
 			 "It can go to Warp "<<this->_maxWarp<<"!! Weapons are set: "
 		<< this->_photonTorpedo << " torpedos ready.\n";
 }
